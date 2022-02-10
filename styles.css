@@ -84,11 +84,12 @@ a {
 	color: #F9FAF8;
 }
 
-.hero-button {
+.hero-button, .action-button {
 	background-color: #3882F6;
 	width: 96px;
 	border: 1px solid #3882F6;
 	border-radius: 6px;
+	flex-shrink: 0;
 }
 
 .hero-img-box {
@@ -169,10 +170,7 @@ a {
 }
 
 .action-button {
-	background-color: #3882F6;
-	width: 96px;
 	border: 1px solid #E5E7EB;;
-	border-radius: 6px;
 }
 
 .footer {
